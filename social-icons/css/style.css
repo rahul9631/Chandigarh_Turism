@@ -1,0 +1,80 @@
+.social-media {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	max-width: 1030px;
+	margin-top: 150px;
+}
+.social-media h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 50px;
+	color: #CB2028;
+}
+.social-media ul {
+	margin: 0px;
+	padding: 0px;
+}
+.social-media ul li {
+	float: left;
+	list-style-type: none;
+}
+.social-media ul li a {
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-right: 3px;
+	background: #565656;
+}
+.social-media ul li i {
+	margin: 0;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+}
+.social-media ul li a:hover i {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-media a.rss:hover {
+	background-color: #F56505;
+}
+.social-media a.facebook:hover {
+	background-color: #3B5998;
+}
+.social-media a.twitter:hover {
+	background-color: #33ccff;
+}
+.social-media a.google:hover {
+	background-color: #BD3518;
+}
+.social-media a.vimeo:hover {
+	background-color: #0590B8;
+}
+.social-media a.linkedin:hover {
+	background-color: #007bb7;
+}
+.social-media a.youtube:hover {
+	background-color: #CC322D;
+}
+.social-media a.instagram:hover {
+	background-color: #275A85;
+}
+.social-media a.pinterest:hover {
+	background-color: #CB2028;
+}
+.social-media a.wordpress:hover {
+	background-color: #08759B;
+}

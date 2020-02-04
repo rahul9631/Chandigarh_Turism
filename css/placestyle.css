@@ -1,0 +1,104 @@
+*
+
+{
+	margin:0px;
+	padding:0px;
+	
+}
+	
+#wrap{
+	height:1450px;
+	width:1150px;
+	margin:auto;
+	background-image:url(rrr.jpg);
+}
+#header{
+background:#CCFF00;
+	height:80px;
+	text-align:center;
+	color:#F00;
+	font-size:50px;
+	margin-top:5px;
+	text-shadow: 9px 10px 17px black;
+
+}
+
+#menu ul{
+	list-style:none;
+}
+#menu ul li{
+border-radius:8px;
+background-image:url(menumm.jpg);
+	width:228px;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+	float:left;
+	font-size:20px;
+	}
+#menu ul li a{
+	text-decoration:none;
+	color:#FFF;
+	display: block;
+}
+#menu ul li a:hover{
+	background:#99FF00;
+}
+#menu ul li:hover > ul
+{
+	display:block;
+	position:absolute;
+}
+#menu ul li a#onlink {
+background:#6f3;
+color:#0033FF;
+}
+#menu ul li a#onlink:hover{
+background:#6f3;
+color:0033ff;
+}
+#ch{
+text-align:center;
+margin-top:70px;
+font-size:30px;
+color:#FF0000;
+cursor:e-resize;
+}
+#pmenu{
+text-align:center;
+font-size:40px;
+color: #0000CC;
+margin-top:20px;
+line-height:70px;
+}
+#pmenu ul{
+list-style:none;
+
+}
+#pmenu ul li{
+list-style-image:url(next.png);
+font-stretch:condensed;
+
+}
+#pmenu ul li a{
+text-decoration:none;
+background:#3399CC;
+border:5px solid #99FF99;
+border-bottom-color:#FF0000;
+}
+
+
+
+
+
+
+
+#footer{
+background:#00FF00;
+	text-align:center;
+	font-size:20px;
+	margin-top:350px;
+	padding:30px;
+	margin-bottom:5px;
+	color:#FF0;
+}
